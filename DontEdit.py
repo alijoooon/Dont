@@ -20,17 +20,17 @@ from telebot import types
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
-token = 'Token' #توکن بات
+token = '326433288:AAHATcRQRwg7O03tz1-S3nqUhrzOS2UBdu8' #توکن بات
 bot = telebot.TeleBot(token)
 redis = redis.StrictRedis(host='localhost', port=6379, db=0, decode_responses=True)
-is_sudo = '192593495' #ایدی شما
+is_sudo = '290424859' #ایدی شما
 bot_id = '123639273' #ایدی بات شما
 
 print "Bot Now Is on"
 
 markupstart = types.InlineKeyboardMarkup()
-markupstart.add(types.InlineKeyboardButton('🌀اد کردن به گروه🌀', url='https://telegram.me/DontEdit_API_Bot?startgroup=new'))
-markupstart.add(types.InlineKeyboardButton('👤توسعه دهنده👤', url='https://telegram.me/ApiCli'), types.InlineKeyboardButton('📢کانال📢', url='https://telegram.me/Special_Programing'))
+markupstart.add(types.InlineKeyboardButton('🌀اد کردن به گروه🌀', url='https://telegram.me/Edit_Nkon_Haji_Bot?startgroup=new'))
+markupstart.add(types.InlineKeyboardButton('👤توسعه دهنده👤', url='https://telegram.me/ApiCli'), types.InlineKeyboardButton('📢کانال📢', url='https://telegram.me/Ali_PuKeR'))
 
 @bot.message_handler(commands=['toall'])
 def toall(m):
