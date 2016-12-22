@@ -24,7 +24,7 @@ token = '326433288:AAHATcRQRwg7O03tz1-S3nqUhrzOS2UBdu8' #توکن بات
 bot = telebot.TeleBot(token)
 redis = redis.StrictRedis(host='localhost', port=6379, db=0, decode_responses=True)
 is_sudo = '290424859' #ایدی شما
-bot_id = '123639273' #ایدی بات شما
+bot_id = '326433288' #ایدی بات شما
 
 print "Bot Now Is on"
 
